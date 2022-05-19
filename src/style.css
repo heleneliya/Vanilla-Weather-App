@@ -11,4 +11,12 @@ h1 {
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 100;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 19px;
 }
