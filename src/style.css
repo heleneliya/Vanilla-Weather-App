@@ -1,17 +1,8 @@
-.weather-app {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid lightslategray;
-  border-radius: 10px;
-}
-
 h1 {
   color: darkslateblue;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 100;
-  text-align: left;
   margin-bottom: 0px;
 }
 
@@ -19,4 +10,42 @@ li {
   list-style: none;
   font-size: 16px;
   line-height: 19px;
+}
+
+#sun {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.overview {
+  margin-bottom: 20px;
+  position: relative;
+  left: -30px;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weather-app {
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid lightslategray;
+  border-radius: 10px;
+}
+
+#github-link,
+#degree-link {
+  text-decoration: none;
+}
+
+#big-temp {
+  font-size: 64px;
+}
+
+#units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
