@@ -10,6 +10,7 @@ li {
   list-style: none;
   font-size: 16px;
   line-height: 19px;
+  text-transform: capitalize;
 }
 
 #sun {
@@ -40,7 +41,7 @@ li {
   text-decoration: none;
 }
 
-#big-temp {
+#temperature {
   font-size: 64px;
 }
 
