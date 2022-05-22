@@ -40,8 +40,14 @@ li:first-letter {
 }
 
 #github-link,
-#degree-link {
+#degree-link,
+#celsius-link {
   text-decoration: none;
+}
+
+.active {
+  color: black;
+  cursor: default;
 }
 
 #temperature {
